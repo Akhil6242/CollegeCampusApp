@@ -1,0 +1,100 @@
+[versions]
+agp = "8.10.1"
+androidPdfViewer = "2.8.2"
+androidPdfViewerVersion = "3.2.2"
+appcompat = "1.7.0"
+appcompatVersion = "1.7.0"
+cardview = "1.0.0"
+constraintlayout = "2.2.1"
+constraintlayoutVersion = "2.2.1"
+customviewPoolingcontainer = "1.1.0"
+customviewPoolingcontainerVersion = "1.1.0"
+desugar_jdk_libs = "2.1.5"
+firebaseAuth = "23.2.1"
+firebaseAuthVersion = "23.2.1"
+firebaseBom = "33.14.0"
+firebaseBomVersion = "33.14.0"
+firebaseFirestoreVersion = "25.1.4"
+firebaseStorage = "21.0.2"
+googleFirebaseBom = "33.14.0"
+googleFirebaseBomVersion = "33.14.0"
+googleMaterial = "1.12.0"
+googleServices = "4.4.2"
+gradle = "8.10.1"
+kotlin = "2.0.21"
+coreKtx = "1.16.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+lifecycleRuntimeKtx = "2.9.0"
+activityCompose = "1.10.1"
+composeBom = "2025.05.01"
+material = "1.12.0"
+materialVersion = "1.12.0"
+firebaseFirestore = "25.1.4"
+picasso = "2.71828"
+picassoVersion = "2.71828"
+playServicesBase = "18.7.0"
+playServicesBasement = "18.7.0"
+playServicesTasks = "18.3.0"
+uiGraphics = "1.8.2"
+uiGraphicsVersion = "1.8.2"
+
+[libraries]
+android-pdf-viewer = { module = "com.github.barteksc:android-pdf-viewer", version.ref = "androidPdfViewer" }
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+androidx-appcompat-v161 = { module = "androidx.appcompat:appcompat", version.ref = "appcompatVersion" }
+androidx-cardview = { module = "androidx.cardview:cardview", version.ref = "cardview" }
+androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+androidx-constraintlayout-v214 = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayoutVersion" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-customview-poolingcontainer = { module = "androidx.customview:customview-poolingcontainer", version.ref = "customviewPoolingcontainer" }
+androidx-customview-poolingcontainer-v100 = { module = "androidx.customview:customview-poolingcontainer", version.ref = "customviewPoolingcontainerVersion" }
+androidx-ui-graphics-v160 = { module = "androidx.compose.ui:ui-graphics", version.ref = "uiGraphicsVersion" }
+com-google-firebase-firebase-auth = { module = "com.google.firebase:firebase-auth" }
+com-google-firebase-firebase-firestore = { module = "com.google.firebase:firebase-firestore" }
+desugar_jdk_libs = { module = "com.android.tools:desugar_jdk_libs", version.ref = "desugar_jdk_libs" }
+dmitrybaranovskii-android-pdf-viewer = { module = "com.github.DmitryBaranovskii:android-pdf-viewer", version.ref = "androidPdfViewerVersion" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+firebase-auth = { module = "com.google.firebase:firebase-auth", version.ref = "firebaseAuth" }
+firebase-auth-v2300 = { module = "com.google.firebase:firebase-auth", version.ref = "firebaseAuthVersion" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-bom-v3270 = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBomVersion" }
+firebase-bom-v3310 = { module = "com.google.firebase:firebase-bom", version.ref = "googleFirebaseBomVersion" }
+firebase-bom-v33140 = { module = "com.google.firebase:firebase-bom", version.ref = "googleFirebaseBom" }
+firebase-firestore-v2500 = { module = "com.google.firebase:firebase-firestore", version.ref = "firebaseFirestoreVersion" }
+firebase-storage = { module = "com.google.firebase:firebase-storage", version.ref = "firebaseStorage" }
+google-firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+google-firebase-auth = { module = "com.google.firebase:firebase-auth" }
+google-firebase-firestore = { module = "com.google.firebase:firebase-firestore" }
+google-services = { module = "com.google.gms:google-services", version.ref = "googleServices" }
+gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+material-v1110 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore", version.ref = "firebaseFirestore" }
+material-v190 = { module = "com.google.android.material:material", version.ref = "googleMaterial" }
+picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
+picasso-v271828 = { module = "com.squareup.picasso:picasso", version.ref = "picassoVersion" }
+play-services-base = { module = "com.google.android.gms:play-services-base", version.ref = "playServicesBase" }
+play-services-basement = { module = "com.google.android.gms:play-services-basement", version.ref = "playServicesBasement" }
+play-services-tasks = { module = "com.google.android.gms:play-services-tasks", version.ref = "playServicesTasks" }
+ui-graphics = { module = "androidx.compose.ui:ui-graphics", version.ref = "uiGraphics" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+

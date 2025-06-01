@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HomePageActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/collegeLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/college_logo"
+        android:contentDescription="@string/college_logo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/profileSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        app:layout_constraintTop_toBottomOf="@+id/collegeLogo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:id="@+id/profilePhoto"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/profile_photo"
+            android:contentDescription="@string/profile_photo" />
+
+        <TextView
+            android:id="@+id/studentName"
+            android:layout_width="297dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="16dp"
+            android:text="@string/student_name"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/mainGrid"
+        android:layout_width="352dp"
+        android:layout_height="475dp"
+        android:layout_marginTop="16dp"
+        android:columnCount="3"
+        android:rowCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profileSection"
+        app:layout_constraintVertical_bias="0.154">
+
+        <androidx.cardview.widget.CardView
+            style="@style/GridCardStyle"
+            android:layout_height="121dp"
+            android:layout_rowWeight="0"
+            android:layout_columnWeight="1">
+
+            <LinearLayout
+                style="@style/CardContentStyle"
+                android:layout_height="121dp">
+
+                <ImageView
+                    style="@style/CardIconStyle"
+                    android:contentDescription="@string/schedule"
+                    android:src="@drawable/timetable_icon"/>
+
+                <TextView
+                    style="@style/CardDescriptionStyle"
+                    android:text="" />
+
+                <TextView
+                    style="@style/CardTitleStyle"
+                    android:text="@string/timetable"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            style="@style/GridCardStyle"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="0"
+            android:layout_columnWeight="1">
+
+            <LinearLayout style="@style/CardContentStyle">
+
+                <ImageView
+                    style="@style/CardIconStyle"
+                    android:contentDescription="@string/your_result"
+                    android:src="@drawable/result_icon" />
+
+                <TextView
+                    style="@style/CardDescriptionStyle"
+                    android:text="" />
+
+                <TextView
+                    style="@style/CardTitleStyle"
+                    android:text="@string/result" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            style="@style/GridCardStyle"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="0"
+            android:layout_columnWeight="1">
+
+            <LinearLayout style="@style/CardContentStyle">
+
+                <ImageView
+                    style="@style/CardIconStyle"
+                    android:contentDescription="@string/year_calender"
+                    android:src="@drawable/calendar_icon" />
+
+                <TextView
+                    style="@style/CardDescriptionStyle"
+                    android:text="" />
+
+                <TextView
+                    style="@style/CardTitleStyle"
+                    android:text="@string/calendar" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            style="@style/GridCardStyle"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="0"
+            android:layout_columnWeight="1">
+
+            <LinearLayout
+                style="@style/CardContentStyle"
+                android:layout_height="140dp">
+
+                <ImageView
+                    style="@style/CardIconStyle"
+                    android:layout_width="49dp"
+                    android:layout_height="55dp"
+                    android:contentDescription="@string/your_syllabus"
+                    android:src="@drawable/syllabus_img" />
+
+                <TextView
+                    style="@style/CardDescriptionStyle"
+                    android:text="" />
+
+                <TextView
+                    style="@style/CardTitleStyle"
+                    android:text="@string/syllabus" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            style="@style/GridCardStyle"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="0"
+            android:layout_columnWeight="1">
+
+            <LinearLayout
+                style="@style/CardContentStyle"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    style="@style/CardIconStyle"
+                    android:layout_width="54dp"
+                    android:layout_height="52dp"
+                    android:contentDescription="@string/notification_news"
+                    android:src="@drawable/notification" />
+
+                <TextView
+                    style="@style/CardDescriptionStyle"
+                    android:text="" />
+
+                <TextView
+                    style="@style/CardTitleStyle"
+                    android:layout_width="76dp"
+                    android:layout_height="42dp"
+                    android:text="@string/notifications"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            style="@style/GridCardStyle"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="0"
+            android:layout_columnWeight="1">
+
+            <LinearLayout style="@style/CardContentStyle">
+
+                <ImageView
+                    style="@style/CardIconStyle"
+                    android:layout_width="58dp"
+                    android:layout_height="51dp"
+                    android:contentDescription="@string/faculties"
+                    android:src="@drawable/facultyic" />
+
+                <TextView
+                    style="@style/CardDescriptionStyle"
+                    android:text="" />
+
+                <TextView
+                    style="@style/CardTitleStyle"
+                    android:text="@string/faculty_member" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            style="@style/GridCardStyle"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="0"
+            android:layout_columnWeight="1">
+
+            <LinearLayout
+                style="@style/CardContentStyle"
+                android:layout_height="159dp">
+
+                <ImageView
+                    style="@style/CardIconStyle"
+                    android:layout_width="53dp"
+                    android:layout_height="54dp"
+                    android:contentDescription="@string/hostel"
+                    android:src="@drawable/hostel" />
+
+                <TextView
+                    style="@style/CardDescriptionStyle"
+                    android:text="" />
+
+                <TextView
+                    style="@style/CardTitleStyle"
+                    android:text="@string/hostel_application"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            style="@style/GridCardStyle"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="0"
+            android:layout_columnWeight="1">
+
+            <LinearLayout
+                style="@style/CardContentStyle"
+                android:layout_height="159dp">
+
+                <ImageView
+                    style="@style/CardIconStyle"
+                    android:layout_width="54dp"
+                    android:layout_height="57dp"
+                    android:contentDescription="@string/examination"
+                    android:src="@drawable/examicon" />
+
+                <TextView
+                    style="@style/CardDescriptionStyle"
+                    android:text="" />
+
+                <TextView
+                    style="@style/CardTitleStyle"
+                    android:text="@string/examination_application"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            style="@style/GridCardStyle"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="0"
+            android:layout_columnWeight="1">
+
+            <LinearLayout
+                style="@style/CardContentStyle"
+                android:layout_height="159dp">
+
+                <ImageView
+                    style="@style/CardIconStyle"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:contentDescription="@string/campus_events"
+                    android:src="@drawable/eventsic" />
+
+                <TextView
+                    style="@style/CardDescriptionStyle"
+                    android:text="" />
+
+                <TextView
+                    style="@style/CardTitleStyle"
+                    android:text="@string/events" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

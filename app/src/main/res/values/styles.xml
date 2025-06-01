@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Style for the CardView in the grid -->
+    <style name="GridCardStyle" parent="CardView">
+        <item name="android:layout_width">0dp</item>               <!-- Width will be determined by GridLayout -->
+        <item name="android:layout_height">wrap_content</item>     <!-- Height will wrap content -->
+        <item name="android:layout_margin">8dp</item>                <!-- Margin around each card -->
+        <item name="cardCornerRadius">8dp</item>                 <!-- Rounded corners -->
+        <item name="cardElevation">4dp</item>                    <!-- Card shadow -->
+        <item name="android:layout_rowWeight">1</item>             <!-- Equal row weight for cards -->
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_columnSpan">1</item><!-- Equal column weight for cards -->
+        <item name="cardBackgroundColor">@color/light_grey</item> <!-- Light grey background -->
+    </style>
+
+    <!-- Style for the college logo -->
+    <style name="collegeLogoStyle">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+
+    <!-- Style for the LinearLayout inside each card -->
+    <style name="CardContentStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <!-- Style for the icon ImageView -->
+    <style name="CardIconStyle">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <!-- Style for the title TextView -->
+    <style name="CardTitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Style for the description TextView -->
+    <style name="CardDescriptionStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+    <!-- Style for the Examination Application card -->
+    <style name="ExaminationCardStyle" parent="GridCardStyle">
+        <item name="android:layout_column">0</item>
+        <item name="android:layout_row">1</item>
+        <!-- Add any additional styling specific to this card -->
+    </style>
+
+    <!-- Style for the Events card -->
+    <style name="EventsCardStyle" parent="GridCardStyle">
+        <item name="android:layout_column">1</item>
+        <item name="android:layout_row">1</item>
+        <!-- Add any additional styling specific to this card -->
+    </style>
+
+    <!-- Style for the Timetable Card -->
+    <style name="TimetableCardStyle" parent="GridCardStyle">
+        <item name="android:layout_column">0</item>
+        <item name="android:layout_row">0</item>
+    </style>
+
+    <!-- Style for the Result Card -->
+    <style name="ResultCardStyle" parent="GridCardStyle">
+        <item name="android:layout_column">1</item>
+        <item name="android:layout_row">0</item>
+    </style>
+    <style name="CalendarCardStyle" parent="GridCardStyle">
+        <item name="android:layout_column">0</item>
+        <item name="android:layout_row">2</item>
+    </style>
+    <style name="SyllabusCardStyle" parent="GridCardStyle">
+        <item name="android:layout_column">1</item>
+        <item name="android:layout_row">2</item>
+    </style>
+    <style name="NotificationCardStyle" parent="GridCardStyle">
+        <item name="android:layout_column">2</item>
+        <item name="android:layout_row">2</item>
+    </style>
+    <style name="FacultyCardStyle" parent="GridCardStyle">
+        <item name="android:layout_column">0</item>
+        <item name="android:layout_row">3</item>
+    </style>
+
+</resources>
