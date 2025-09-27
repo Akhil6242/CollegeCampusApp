@@ -126,5 +126,8 @@ For questions or feedback, reach out to Akhilesh Yadav at akhilyadavbil@gmail.co
 ![Screenshot 2025-05-27 181022](https://github.com/user-attachments/assets/2790f274-4027-4332-936f-c1d7a80104b8)
 ![Screenshot 2025-05-27 181009](https://github.com/user-attachments/assets/aa927b1d-f1bf-4a53-b360-9e31f7f426ed)
 ![Screenshot 2025-05-27 180941](https://github.com/user-attachments/assets/d3310c86-6398-40c3-bb5e-10fef0a076ad)
-![Screenshot 2025-05-27 180926](https://github.com/user-attachments/assets/db3774a7-a103-4644-9cd6-3f5a970fc1e0)
-.
+![Screenshot 2025-05-27 180926](https://github.com/user-attachments/assets/db3774a7-a103-4![login](https://github.com/user-attachments/assets/b3ee64ac-da56-4e8c-8422-195f403d13ad)
+644-9cd6-3f5a970fc1e0)
+.![home](https://github.com/user-attachments/assets/c579cb1c-0561-4500-8c46-93d1527be411)
+
+![register](https://github.com/user-attachments/assets/086e7915-2e86-4b78-975e-028f52acc462)
